@@ -1,0 +1,1 @@
+-- hint for Assignment1. Show ¬ A
