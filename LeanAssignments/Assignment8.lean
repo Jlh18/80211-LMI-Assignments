@@ -22,7 +22,7 @@ theorem mod_two_times_two_eq_ff :
   ∀ x : Nat, mod_two (times_two x) = Bool.false := sorry
 
 theorem times_two_not_one :
-  ∀ x : Nat, ¬ times_two x = one := sorry
+  ∀ x : Nat, ¬ times_two x = 1 := sorry
 
 -- true or false?
 example : ∀ x : Nat, ∃ y : Nat, times_two x = y := sorry
